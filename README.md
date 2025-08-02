@@ -1,6 +1,6 @@
 # Go Duplicate File Finder
 
-This is a command-line tool written in Go to find duplicate files in a specified directory.
+A command-line tool written in Go to find and manage duplicate files in a specified directory.
 
 ## Features
 
@@ -18,13 +18,13 @@ This is a command-line tool written in Go to find duplicate files in a specified
 
 ### Prerequisites
 
-*   Go (1.x or later)
+*   Go (1.23 or later)
 
 ### Installation
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/your-username/duplicate-files.git
+    git clone https://github.com/gyaan/duplicate-files.git
     ```
 2.  Navigate to the project directory:
     ```bash
@@ -57,3 +57,15 @@ go run cmd/duplicate-files/main.go [flags]
 *   `pkg/fileutils/fileutils.go`: The package responsible for finding files and filtering them.
 *   `pkg/ui/ui.go`: The package responsible for the interactive user interface.
 *   `go.mod`: The Go module definition file.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
