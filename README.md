@@ -24,11 +24,11 @@ A command-line tool written in Go to find and manage duplicate files in a specif
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/gyaan/duplicate-files.git
+    git clone https://github.com/gyaan/ByteBrush.git
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd duplicate-files
+    cd ByteBrush
     ```
 
 ### Usage
